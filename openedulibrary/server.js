@@ -1,7 +1,7 @@
 function downloadBook(filename) {
-    const accountName = 'openedulibrarybookspdf';
-    const accountKey = '1XG1cQXBLt448SUuIex9qggXXn+AGqfV6w1CVYPv7zAyyzfiyb52T0lOF7wFnkYIQOk5WaOfrU1/+ASticpnkQ==';
-    const containerName = 'openedulibrarybookspdfs';
+    const accountName = 'openedulibrarybooks';
+    const accountKey = 'Hx8Q2mcWqsa1lmwzhF6rYVg8TII0+lMNOeFrTN8oRmKRBTToGBTPCvJ9e6dfso1J4qaDl7TkXvmn+AStUE8Bpw==';
+    const containerName = 'openedulibrarypdfs';
 
     // Create a Blob Storage URL for the file
     const blobUrl = `https://${accountName}.blob.core.windows.net/${containerName}/${filename}`;
