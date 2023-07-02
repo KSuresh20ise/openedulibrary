@@ -6,10 +6,10 @@ $message = $_POST['message'];
 
 // Store feedback data in the database or file
 // Example using MySQLi extension
-$servername = 'your-database-server';
-$username = 'your-username';
-$password = 'your-password';
-$dbname = 'your-database-name';
+$servername = 'localhost';
+$username = 'root';
+$password = '';
+$dbname = 'feedbackform';
 
 // Create a connection
 $conn = new mysqli($servername, $username, $password, $dbname);
